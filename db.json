@@ -1,0 +1,1750 @@
+{
+  "users": [
+    {
+      "name": "Jenny",
+      "surname": "Smith",
+      "age": 52,
+      "email": "jenny.smith@example.com",
+      "salary": "40000",
+      "property_value": "500000",
+      "address": {
+        "street": "123 Main Street",
+        "city": "London",
+        "postcode": "SW1A 1AA"
+      },
+      "credit_score": 750,
+      "mortgage": {
+        "type": "Fixed Rate",
+        "fixed_term": "5 years",
+        "start_date": "2020-03-15",
+        "status": "Outstanding",
+        "address_type": "Primary Residence",
+        "lender": "ABC Bank",
+        "monthly_payment": "1350",
+        "outstanding_balance": "81000",
+        "interest_rate": "3.7",
+        "term_years": 5,
+        "next_payment_date": "2024-02-01",
+        "insurance": {
+          "has_insurance": true,
+          "insurance_provider": "XYZ Insurance",
+          "policy_number": "P123456789",
+          "coverage": "200000"
+        },
+        "additional_notes": "Jenny made additional lump sum payments of 5000 last year."
+      }
+    },
+    {
+      "name": "Kat",
+      "surname": "Johnson",
+      "age": 28,
+      "email": "kat.johnson@example.com",
+      "salary": "40000",
+      "property_value": "150000",
+      "address": {
+        "street": "456 Park Avenue",
+        "city": "Manchester",
+        "postcode": "M1 1AA"
+      },
+      "credit_score": 680
+    },
+    {
+      "name": "Sam",
+      "surname": "Brown",
+      "age": 40,
+      "email": "sam.brown@example.com",
+      "salary": "50000",
+      "property_value": "300000",
+      "address": {
+        "street": "789 Oak Lane",
+        "city": "Birmingham",
+        "postcode": "B1 1AA"
+      },
+      "credit_score": 800
+    }
+  ],
+  "properties_value": [
+    {
+      "id": 1,
+      "postcode": "SW1A 1AA",
+      "city": "London",
+      "council": "City of Westminster",
+      "value": "200000"
+    },
+    {
+      "id": 2,
+      "postcode": "M1 1AA",
+      "city": "Manchester",
+      "council": "Manchester City Council",
+      "value": "150000"
+    },
+    {
+      "id": 3,
+      "postcode": "B1 1AA",
+      "city": "Birmingham",
+      "council": "Birmingham City Council",
+      "value": "300000"
+    },
+    {
+      "id": 4,
+      "postcode": "EC1A 1BB",
+      "city": "London",
+      "council": "City of London Corporation",
+      "value": "250000"
+    },
+    {
+      "id": 5,
+      "postcode": "W1A 1AA",
+      "city": "London",
+      "council": "City of Westminster",
+      "value": "500000"
+    },
+    {
+      "id": 6,
+      "postcode": "W6 8AB",
+      "city": "London",
+      "council": "Hammersmith and Fulham",
+      "value": "350000"
+    },
+    {
+      "id": 7,
+      "postcode": "SE13 5JH",
+      "city": "London",
+      "council": "Lewisham",
+      "value": "280000"
+    },
+    {
+      "id": 8,
+      "postcode": "CT1 2HX",
+      "city": "Canterbury",
+      "council": "Canterbury City Council",
+      "value": "220000"
+    },
+    {
+      "id": 9,
+      "postcode": "ME15 6AZ",
+      "city": "Maidstone",
+      "council": "Maidstone Borough Council",
+      "value": "180000"
+    },
+    {
+      "id": 10,
+      "postcode": "G2 4AA",
+      "city": "Glasgow",
+      "council": "Glasgow City Council",
+      "value": "160000"
+    },
+    {
+      "id": 11,
+      "postcode": "EH1 1AA",
+      "city": "Edinburgh",
+      "council": "City of Edinburgh Council",
+      "value": "190000"
+    },
+    {
+      "id": 12,
+      "postcode": "CF10 1AY",
+      "city": "Cardiff",
+      "council": "Cardiff Council",
+      "value": "210000"
+    },
+    {
+      "id": 13,
+      "postcode": "SA1 1WG",
+      "city": "Swansea",
+      "council": "Swansea City Council",
+      "value": "175000"
+    },
+    {
+      "id": 14,
+      "postcode": "LS1 1AA",
+      "city": "Leeds",
+      "council": "Leeds City Council",
+      "value": "240000"
+    },
+    {
+      "id": 15,
+      "postcode": "NE1 1AA",
+      "city": "Newcastle",
+      "council": "Newcastle City Council",
+      "value": "170000"
+    },
+    {
+      "id": 16,
+      "postcode": "EH12 5AA",
+      "city": "Edinburgh",
+      "council": "City of Edinburgh Council",
+      "value": "300000"
+    },
+    {
+      "id": 17,
+      "postcode": "M3 1AA",
+      "city": "Manchester",
+      "council": "Manchester City Council",
+      "value": "220000"
+    },
+    {
+      "id": 18,
+      "postcode": "SW3 1AA",
+      "city": "London",
+      "council": "Royal Borough of Kensington and Chelsea",
+      "value": "550000"
+    },
+    {
+      "id": 19,
+      "postcode": "BS1 1AA",
+      "city": "Bristol",
+      "council": "Bristol City Council",
+      "value": "260000"
+    },
+    {
+      "id": 20,
+      "postcode": "LE1 1AA",
+      "city": "Leicester",
+      "council": "Leicester City Council",
+      "value": "180000"
+    },
+    {
+      "id": 21,
+      "postcode": "NG1 1AA",
+      "city": "Nottingham",
+      "council": "Nottingham City Council",
+      "value": "200000"
+    },
+    {
+      "id": 22,
+      "postcode": "CF24 0AA",
+      "city": "Cardiff",
+      "council": "Cardiff Council",
+      "value": "190000"
+    },
+    {
+      "id": 23,
+      "postcode": "OX1 1AA",
+      "city": "Oxford",
+      "council": "Oxford City Council",
+      "value": "320000"
+    },
+    {
+      "id": 24,
+      "postcode": "AB10 1AA",
+      "city": "Aberdeen",
+      "council": "Aberdeen City Council",
+      "value": "150000"
+    },
+    {
+      "id": 25,
+      "postcode": "S1 1AA",
+      "city": "Sheffield",
+      "council": "Sheffield City Council",
+      "value": "210000"
+    },
+    {
+      "id": 26,
+      "postcode": "SW7 1AA",
+      "city": "London",
+      "council": "Royal Borough of Kensington and Chelsea",
+      "value": "500000"
+    },
+    {
+      "id": 27,
+      "postcode": "BD1 1AA",
+      "city": "Bradford",
+      "council": "City of Bradford Metropolitan District Council",
+      "value": "170000"
+    },
+    {
+      "id": 28,
+      "postcode": "EH3 1AA",
+      "city": "Edinburgh",
+      "council": "City of Edinburgh Council",
+      "value": "280000"
+    },
+    {
+      "id": 29,
+      "postcode": "L1 1AA",
+      "city": "Liverpool",
+      "council": "Liverpool City Council",
+      "value": "230000"
+    },
+    {
+      "id": 30,
+      "postcode": "CT2 7NZ",
+      "city": "Canterbury",
+      "council": "Canterbury City Council",
+      "value": "240000"
+    },
+    {
+      "id": 31,
+      "postcode": "GU1 1AA",
+      "city": "Guildford",
+      "council": "Guildford Borough Council",
+      "value": "320000"
+    },
+    {
+      "id": 32,
+      "postcode": "SW19 1AA",
+      "city": "London",
+      "council": "London Borough of Merton",
+      "value": "420000"
+    },
+    {
+      "id": 33,
+      "postcode": "NR1 1AA",
+      "city": "Norwich",
+      "council": "Norwich City Council",
+      "value": "180000"
+    },
+    {
+      "id": 34,
+      "postcode": "BH1 1AA",
+      "city": "Bournemouth",
+      "council": "Bournemouth, Christchurch and Poole Council",
+      "value": "260000"
+    },
+    {
+      "id": 35,
+      "postcode": "E1 1AA",
+      "city": "London",
+      "council": "Tower Hamlets London Borough Council",
+      "value": "380000"
+    },
+    {
+      "id": 36,
+      "postcode": "WF1 1AA",
+      "city": "Wakefield",
+      "council": "Wakefield District Council",
+      "value": "150000"
+    },
+    {
+      "id": 37,
+      "postcode": "PO1 1AA",
+      "city": "Portsmouth",
+      "council": "Portsmouth City Council",
+      "value": "200000"
+    },
+    {
+      "id": 38,
+      "postcode": "TS1 1AA",
+      "city": "Middlesbrough",
+      "council": "Middlesbrough Council",
+      "value": "130000"
+    },
+    {
+      "id": 39,
+      "postcode": "DE1 1AA",
+      "city": "Derby",
+      "council": "Derby City Council",
+      "value": "170000"
+    },
+    {
+      "id": 40,
+      "postcode": "YO1 1AA",
+      "city": "York",
+      "council": "City of York Council",
+      "value": "280000"
+    },
+    {
+      "id": 41,
+      "postcode": "SW11 1AA",
+      "city": "London",
+      "council": "London Borough of Wandsworth",
+      "value": "470000"
+    },
+    {
+      "id": 42,
+      "postcode": "PL1 1AA",
+      "city": "Plymouth",
+      "council": "Plymouth City Council",
+      "value": "160000"
+    },
+    {
+      "id": 43,
+      "postcode": "LS2 9JT",
+      "city": "Leeds",
+      "council": "Leeds City Council",
+      "value": "230000"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Assess Affordability",
+      "tasks": [
+        "Calculate upfront funds and potential borrowing.",
+        "Use an affordability calculator and get an agreement in principle (AIP) for added attractiveness."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Property Search",
+      "tasks": [
+        "Research areas and find properties through estate agents and online platforms."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Make an Offer",
+      "tasks": [
+        "Determine a suitable offer and conditions.",
+        "Consider advice from forums but avoid revealing tactics publicly."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Offer Accepted",
+      "tasks": [
+        "Celebrate the milestone but remain cautious.",
+        "Be aware of gazumping and gazanging risks."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mortgage Search",
+      "tasks": [
+        "Explore mortgage options beyond your current bank.",
+        "Use tools to find the best deals and obtain a mortgage illustration."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Conveyancing Fees",
+      "tasks": [
+        "Decide on a conveyancer for legal processes.",
+        "Ensure they are on major lenders' panels."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Mortgage Application",
+      "tasks": [
+        "Convert AIP to a full application.",
+        "Lender checks borrower and property suitability."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Legal Searches",
+      "tasks": [
+        "Solicitor conducts searches including local authority, drainage, and environmental checks."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Stay in Touch",
+      "tasks": [
+        "Communicate regularly with your solicitor.",
+        "Address any delays promptly."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Property Survey",
+      "tasks": [
+        "Choose a survey type based on property type and value.",
+        "Get quotes for potential repair work if issues are found."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Mortgage Offer",
+      "tasks": [
+        "Celebrate receiving a formal mortgage offer.",
+        "Verify accuracy and check for conditions."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Buildings Insurance",
+      "tasks": [
+        "Secure insurance after the exchange of contracts.",
+        "Ensure coverage matches the property's rebuild value."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Completion Date",
+      "tasks": [
+        "Agree on a completion date with the seller.",
+        "Be flexible to accommodate both parties."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Exchange Contracts",
+      "tasks": [
+        "Hand over the deposit to the solicitor.",
+        "Sign the contract, creating a legally-binding agreement."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Completion",
+      "tasks": [
+        "Receive a completion statement from the solicitor.",
+        "Pay outstanding fees, complete final checks, and get the keys."
+      ]
+    }
+  ],
+  "newbuyer_quiz": [
+    {
+      "task": "Assess Affordability",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does AIP stand for in the context of mortgage affordability?",
+          "options": [
+            { "id": 1, "text": "Affordability Interest Point" },
+            { "id": 2, "text": "Agreement in Principle (AIP)" }
+          ],
+          "correct_answer": "Agreement in Principle (AIP)"
+        },
+        {
+          "id": 2,
+          "question": "What is the primary purpose of an affordability calculator?",
+          "options": [
+            { "id": 3, "text": "To calculate future property values" },
+            {
+              "id": 4,
+              "text": "To calculate upfront funds and potential borrowing"
+            }
+          ],
+          "correct_answer": "To calculate upfront funds and potential borrowing"
+        },
+        {
+          "id": 3,
+          "question": "What is the main attraction of an AIP in the home-buying process?",
+          "options": [
+            { "id": 5, "text": "It guarantees a lower interest rate" },
+            { "id": 6, "text": "It adds attractiveness to your offer" }
+          ],
+          "correct_answer": "It adds attractiveness to your offer"
+        },
+        {
+          "id": 4,
+          "question": "What is the potential risk of relying solely on an AIP?",
+          "options": [
+            { "id": 7, "text": "It guarantees loan approval" },
+            { "id": 8, "text": "The actual mortgage terms may differ" }
+          ],
+          "correct_answer": "The actual mortgage terms may differ"
+        }
+      ]
+    },
+    {
+      "task": "Property Search",
+      "questions": [
+        {
+          "id": 5,
+          "question": "Where can you exclusively find properties during the property search process?",
+          "options": [
+            { "id": 9, "text": "Through friends' recommendations only" },
+            { "id": 10, "text": "Through estate agents and online platforms" }
+          ],
+          "correct_answer": "Through estate agents and online platforms"
+        },
+        {
+          "id": 6,
+          "question": "What should you avoid when researching areas for property search?",
+          "options": [
+            { "id": 11, "text": "Reading online reviews" },
+            { "id": 12, "text": "Ignoring neighborhood safety" }
+          ],
+          "correct_answer": "Ignoring neighborhood safety"
+        },
+        {
+          "id": 7,
+          "question": "What is the primary role of estate agents in property search?",
+          "options": [
+            { "id": 13, "text": "Only to provide property listings" },
+            {
+              "id": 14,
+              "text": "To assist in the buying process and negotiations"
+            }
+          ],
+          "correct_answer": "To assist in the buying process and negotiations"
+        },
+        {
+          "id": 8,
+          "question": "Why is online research important during property search?",
+          "options": [
+            { "id": 15, "text": "It is the only way to find property values" },
+            {
+              "id": 16,
+              "text": "It provides access to a wide range of property listings"
+            }
+          ],
+          "correct_answer": "It provides access to a wide range of property listings"
+        }
+      ]
+    },
+    {
+      "task": "Make an Offer",
+      "questions": [
+        {
+          "id": 9,
+          "question": "What is a key consideration when determining a suitable offer?",
+          "options": [
+            { "id": 17, "text": "Offering the highest possible amount" },
+            {
+              "id": 18,
+              "text": "Considering market conditions and property value"
+            }
+          ],
+          "correct_answer": "Considering market conditions and property value"
+        },
+        {
+          "id": 10,
+          "question": "What is the risk of revealing negotiation tactics publicly?",
+          "options": [
+            { "id": 19, "text": "It speeds up the buying process" },
+            { "id": 20, "text": "Others may use the same tactics against you" }
+          ],
+          "correct_answer": "Others may use the same tactics against you"
+        },
+        {
+          "id": 11,
+          "question": "Why is it important to seek advice from forums when making an offer?",
+          "options": [
+            { "id": 21, "text": "Forums provide legally binding advice" },
+            {
+              "id": 22,
+              "text": "Consideration of different perspectives can be helpful"
+            }
+          ],
+          "correct_answer": "Forums provide legally binding advice"
+        },
+        {
+          "id": 12,
+          "question": "What is the primary purpose of conditions in an offer?",
+          "options": [
+            { "id": 23, "text": "To confuse the seller" },
+            {
+              "id": 24,
+              "text": "To specify terms that must be met for the offer to be valid"
+            }
+          ],
+          "correct_answer": "To specify terms that must be met for the offer to be valid"
+        }
+      ]
+    },
+    {
+      "task": "Offer Accepted",
+      "questions": [
+        {
+          "id": 13,
+          "question": "What is the primary emotion upon having an offer accepted?",
+          "options": [
+            { "id": 25, "text": "Anxiety" },
+            { "id": 26, "text": "Celebration" }
+          ],
+          "correct_answer": "Celebration"
+        },
+        {
+          "id": 14,
+          "question": "What is the risk associated with gazumping?",
+          "options": [
+            { "id": 27, "text": "It guarantees a lower purchase price" },
+            {
+              "id": 28,
+              "text": "Another buyer outbids and secures the property"
+            }
+          ],
+          "correct_answer": "It guarantees a lower purchase price"
+        },
+        {
+          "id": 15,
+          "question": "Why is it important to remain cautious after an offer is accepted?",
+          "options": [
+            { "id": 29, "text": "There are no potential risks at this stage" },
+            {
+              "id": 30,
+              "text": "Risks such as gazumping and gazanging still exist"
+            }
+          ],
+          "correct_answer": "Risks such as gazumping and gazanging still exist"
+        },
+        {
+          "id": 16,
+          "question": "What does \"gazanging\" refer to in the home-buying process?",
+          "options": [
+            {
+              "id": 31,
+              "text": "A celebratory dance after an offer is accepted"
+            },
+            {
+              "id": 32,
+              "text": "The seller pulling out of the sale after accepting an offer"
+            }
+          ],
+          "correct_answer": "The seller pulling out of the sale after accepting an offer"
+        }
+      ]
+    },
+    {
+      "task": "Mortgage Search",
+      "questions": [
+        {
+          "id": 17,
+          "question": "Why should you explore mortgage options beyond your current bank?",
+          "options": [
+            { "id": 33, "text": "Loyalty to the current bank" },
+            { "id": 34, "text": "To find the best deals" }
+          ],
+          "correct_answer": "To find the best deals"
+        },
+        {
+          "id": 18,
+          "question": "What is the purpose of obtaining a mortgage illustration?",
+          "options": [
+            { "id": 35, "text": "To decorate your home" },
+            {
+              "id": 36,
+              "text": "To understand the details of the mortgage deal"
+            }
+          ],
+          "correct_answer": "To understand the details of the mortgage deal"
+        },
+        {
+          "id": 19,
+          "question": "What is the first step in the mortgage search process?",
+          "options": [
+            { "id": 37, "text": "Choose the first offer you receive" },
+            {
+              "id": 38,
+              "text": "Explore mortgage options beyond your current bank"
+            }
+          ],
+          "correct_answer": "Explore mortgage options beyond your current bank"
+        },
+        {
+          "id": 20,
+          "question": "How can you determine the best mortgage deals?",
+          "options": [
+            { "id": 39, "text": "Stick to your current bank" },
+            {
+              "id": 40,
+              "text": "Use tools to compare and find the best deals"
+            }
+          ],
+          "correct_answer": "Use tools to compare and find the best deals"
+        }
+      ]
+    },
+    {
+      "task": "Conveyancing Fees",
+      "questions": [
+        {
+          "id": 21,
+          "question": "Why is it important to decide on a conveyancer for legal processes?",
+          "options": [
+            { "id": 41, "text": "To increase legal fees" },
+            { "id": 42, "text": "To ensure a smooth legal process" }
+          ],
+          "correct_answer": "To ensure a smooth legal process"
+        },
+        {
+          "id": 22,
+          "question": "What is a crucial factor in choosing a conveyancer?",
+          "options": [
+            { "id": 43, "text": "Their popularity on social media" },
+            { "id": 44, "text": "Ensuring they are on major lenders' panels" }
+          ],
+          "correct_answer": "Ensuring they are on major lenders' panels"
+        },
+        {
+          "id": 23,
+          "question": "When should you choose a conveyancer in the home-buying process?",
+          "options": [
+            { "id": 45, "text": "After completing all legal processes" },
+            { "id": 46, "text": "At the beginning of the process" }
+          ],
+          "correct_answer": "At the beginning of the process"
+        },
+        {
+          "id": 24,
+          "question": "What is the primary purpose of conveyancing fees?",
+          "options": [
+            { "id": 47, "text": "To increase the seller's profit" },
+            { "id": 48, "text": "To cover legal costs" }
+          ],
+          "correct_answer": "To cover legal costs"
+        }
+      ]
+    },
+    {
+      "task": "Mortgage Application",
+      "questions": [
+        {
+          "id": 25,
+          "question": "What is the primary purpose of a mortgage application?",
+          "options": [
+            { "id": 49, "text": "To determine the buyer's suitability" },
+            { "id": 50, "text": "To determine the seller's suitability" }
+          ],
+          "correct_answer": "To determine the buyer's suitability"
+        },
+        {
+          "id": 26,
+          "question": "What is the primary purpose of a lender's checks?",
+          "options": [
+            { "id": 51, "text": "To determine the buyer's suitability" },
+            { "id": 52, "text": "To determine the seller's suitability" }
+          ],
+          "correct_answer": "To determine the buyer's suitability"
+        },
+        {
+          "id": 27,
+          "question": "What is the primary purpose of a property valuation?",
+          "options": [
+            { "id": 53, "text": "To determine the buyer's suitability" },
+            { "id": 54, "text": "To determine the property's market value" }
+          ],
+          "correct_answer": "To determine the property's market value"
+        },
+        {
+          "id": 28,
+          "question": "What is the primary purpose of a mortgage illustration?",
+          "options": [
+            { "id": 55, "text": "To outline the terms of the mortgage offer" },
+            { "id": 56, "text": "To determine the buyer's suitability" }
+          ],
+          "correct_answer": "To outline the terms of the mortgage offer"
+        }
+      ]
+    },
+    {
+      "task": "Legal Searches",
+      "questions": [
+        {
+          "id": 29,
+          "question": "What is the primary purpose of legal searches?",
+          "options": [
+            { "id": 57, "text": "To determine the buyer's suitability" },
+            {
+              "id": 58,
+              "text": "To uncover any legal issues with the property"
+            }
+          ],
+          "correct_answer": "To uncover any legal issues with the property"
+        },
+        {
+          "id": 30,
+          "question": "What is the primary purpose of local authority searches?",
+          "options": [
+            {
+              "id": 59,
+              "text": "To verify the property's compliance with local regulations"
+            },
+            { "id": 60, "text": "To determine the buyer's suitability" }
+          ],
+          "correct_answer": "To verify the property's compliance with local regulations"
+        },
+        {
+          "id": 31,
+          "question": "What is the primary purpose of drainage searches?",
+          "options": [
+            { "id": 61, "text": "To determine the buyer's suitability" },
+            { "id": 62, "text": "To determine the property's suitability" }
+          ],
+          "correct_answer": "To determine the property's suitability"
+        },
+        {
+          "id": 32,
+          "question": "What is the primary purpose of environmental searches?",
+          "options": [
+            { "id": 63, "text": "To determine the buyer's suitability" },
+            {
+              "id": 64,
+              "text": "To assess potential environmental risks associated with the property"
+            }
+          ],
+          "correct_answer": "To assess potential environmental risks associated with the property"
+        }
+      ]
+    },
+    {
+      "task": "Stay in Touch",
+      "questions": [
+        {
+          "id": 33,
+          "question": "What is the primary purpose of regular communication with your solicitor?",
+          "options": [
+            { "id": 65, "text": "To increase legal fees" },
+            { "id": 66, "text": "To ensure a smooth legal process" }
+          ],
+          "correct_answer": "To ensure a smooth legal process"
+        },
+        {
+          "id": 34,
+          "question": "What is the primary purpose of addressing delays promptly?",
+          "options": [
+            { "id": 67, "text": "To increase legal fees" },
+            { "id": 68, "text": "To ensure a smooth legal process" }
+          ],
+          "correct_answer": "To ensure a smooth legal process"
+        },
+        {
+          "id": 35,
+          "question": "What is the primary purpose of addressing delays promptly?",
+          "options": [
+            { "id": 69, "text": "To maintain transparency and collaboration" },
+            { "id": 70, "text": "To increase legal fees" }
+          ],
+          "correct_answer": "To maintain transparency and collaboration"
+        },
+        {
+          "id": 36,
+          "question": "What is the primary purpose of addressing delays promptly?",
+          "options": [
+            { "id": 71, "text": "To expedite the buying process" },
+            { "id": 72, "text": "To ensure a smooth legal process" }
+          ],
+          "correct_answer": "To expedite the buying process"
+        }
+      ]
+    },
+    {
+      "task": "Property Survey",
+      "questions": [
+        {
+          "id": 37,
+          "question": "What is the primary purpose of a property survey?",
+          "options": [
+            { "id": 73, "text": "To determine the buyer's suitability" },
+            {
+              "id": 74,
+              "text": "To identify any structural issues with the property"
+            }
+          ],
+          "correct_answer": "To identify any structural issues with the property"
+        },
+        {
+          "id": 38,
+          "question": "Why is a homebuyer's report essential in the property buying process?",
+          "options": [
+            {
+              "id": 75,
+              "text": "To determine if the buyer can be a homeowner"
+            },
+            { "id": 76, "text": "To assess the property's conditions" }
+          ],
+          "correct_answer": "To determine the property's suitability"
+        },
+        {
+          "id": 39,
+          "question": "What is the primary purpose of a building survey?",
+          "options": [
+            {
+              "id": 77,
+              "text": "To provide a detailed analysis of the property's structure"
+            },
+            {
+              "id": 78,
+              "text": "To determine the buyer can afford to pay the building's works"
+            }
+          ],
+          "correct_answer": "To provide a detailed analysis of the property's structure"
+        },
+        {
+          "id": 40,
+          "question": "Why is a snagging survey important, especially in new-build properties?",
+          "options": [
+            { "id": 79, "text": "To identify if the buyer has any snags" },
+            {
+              "id": 80,
+              "text": "To identify any defects or issues in a new-build property"
+            }
+          ],
+          "correct_answer": "To identify any defects or issues in a new-build property"
+        }
+      ]
+    },
+    {
+      "task": "Mortgage Offer",
+      "questions": [
+        {
+          "id": 41,
+          "question": "What is the primary purpose of a mortgage offer?",
+          "options": [
+            {
+              "id": 81,
+              "text": "To outline the terms and conditions of the mortgage"
+            },
+            {
+              "id": 82,
+              "text": "To determine if the buyer is serious about the mortgage"
+            }
+          ],
+          "correct_answer": "To outline the terms and conditions of the mortgage"
+        },
+        {
+          "id": 42,
+          "question": "What is the primary purpose of verifying the accuracy of a mortgage offer?",
+          "options": [
+            {
+              "id": 83,
+              "text": "To determine the buyer is the real owner of the property"
+            },
+            { "id": 84, "text": "To ensure the details match the agreed terms" }
+          ],
+          "correct_answer": "To ensure the details match the agreed terms"
+        },
+        {
+          "id": 43,
+          "question": "What is the primary purpose of checking for conditions in a mortgage offer?",
+          "options": [
+            { "id": 85, "text": "To determine the buyer's suitability" },
+            { "id": 86, "text": "To determine the mortgage's suitability" }
+          ],
+          "correct_answer": "To determine the mortgage's suitability"
+        },
+        {
+          "id": 44,
+          "question": "What is the primary purpose of checking for conditions in a mortgage offer?",
+          "options": [
+            { "id": 87, "text": "To determine the buyer's suitability" },
+            { "id": 88, "text": "To determine the mortgage's suitability" }
+          ],
+          "correct_answer": "To determine the mortgage's suitability"
+        }
+      ]
+    },
+    {
+      "task": "Buildings Insurance",
+      "questions": [
+        {
+          "id": 45,
+          "question": "What is the primary purpose of buildings insurance?",
+          "options": [
+            { "id": 89, "text": "To determine the property's suitability" },
+            {
+              "id": 90,
+              "text": "Insurance safeguards the property against unforeseen events, securing the investment made by the buyer"
+            }
+          ],
+          "correct_answer": "To determine the property's suitability"
+        },
+        {
+          "id": 46,
+          "question": "What is the primary purpose of ensuring coverage matches the property's rebuild value?",
+          "options": [
+            {
+              "id": 91,
+              "text": "Ensuring coverage aligns with rebuild value guarantees adequate protection in case of damage or loss"
+            },
+            { "id": 92, "text": "To determine the property's suitability" }
+          ],
+          "correct_answer": "To determine the property's suitability"
+        },
+        {
+          "id": 47,
+          "question": "Why is it important to review and update buildings insurance regularly?",
+          "options": [
+            {
+              "id": 93,
+              "text": "Regular updates prevent underinsurance and ensure adequate protection in dynamic property markets"
+            },
+            {
+              "id": 94,
+              "text": "To ensure coverage reflects the property's current value"
+            }
+          ],
+          "correct_answer": "To ensure coverage reflects the property's current value"
+        },
+        {
+          "id": 48,
+          "question": "What is the primary purpose of liability coverage in buildings insurance?",
+          "options": [
+            { "id": 95, "text": "To determine the buyer's suitability" },
+            {
+              "id": 96,
+              "text": "To protect against claims for injury or damage on the property"
+            }
+          ],
+          "correct_answer": "To protect against claims for injury or damage on the property"
+        }
+      ]
+    },
+    {
+      "task": "Completion Date",
+      "questions": [
+        {
+          "id": 49,
+          "question": "What is the primary purpose of agreeing on a completion date with the seller?",
+          "options": [
+            { "id": 97, "text": "To determine the seller's suitability" },
+            {
+              "id": 98,
+              "text": "Agreement on the completion date is crucial for coordinating the smooth transfer of property ownership"
+            }
+          ],
+          "correct_answer": "To determine the seller's suitability"
+        },
+        {
+          "id": 50,
+          "question": "Why is it essential for the buyer to be flexible in accommodating both parties when setting a completion date?",
+          "options": [
+            {
+              "id": 99,
+              "text": "Flexibility fosters cooperation, reducing the likelihood of conflicts and ensuring a positive transaction experience"
+            },
+            {
+              "id": 100,
+              "text": "To facilitate a smooth and mutually agreeable property handover"
+            }
+          ],
+          "correct_answer": "To facilitate a smooth and mutually agreeable property handover"
+        },
+        {
+          "id": 51,
+          "question": "What potential issues can arise if there is inflexibility regarding the completion date?",
+          "options": [
+            {
+              "id": 101,
+              "text": "Delays and complications in the property transaction"
+            },
+            {
+              "id": 102,
+              "text": "Inflexibility may lead to disputes and hinder the timely completion of the property sale"
+            }
+          ],
+          "correct_answer": "Delays and complications in the property transaction"
+        },
+        {
+          "id": 52,
+          "question": "How does agreeing on a realistic completion date contribute to a positive buyer-seller relationship?",
+          "options": [
+            {
+              "id": 104,
+              "text": "By aligning expectations and respecting each other's time frames, both parties can build a solid foundation for a mutually beneficial transaction."
+            },
+            {
+              "id": 103,
+              "text": "It demonstrates a commitment to professionalism and cooperation, fostering trust between the parties involved."
+            }
+          ],
+          "correct_answer": "It demonstrates a commitment to professionalism and cooperation, fostering trust between the parties involved."
+        }
+      ]
+    },
+    {
+      "task": "Exchange of Contracts",
+      "questions": [
+        {
+          "id": 53,
+          "question": "What is the significance of the exchange of contracts in the home-buying process?",
+          "options": [
+            { "id": 106, "text": "It determines the buyer's financial status" },
+            {
+              "id": 105,
+              "text": "It signifies the completion of the property purchase"
+            }
+          ],
+          "correct_answer": "It signifies the completion of the property purchase"
+        },
+        {
+          "id": 54,
+          "question": "What happens to the buyer's deposit at the exchange of contracts?",
+          "options": [
+            {
+              "id": 107,
+              "text": "It is securely held in escrow, ensuring both parties' financial security throughout the transaction."
+            },
+            {
+              "id": 108,
+              "text": "The deposit functions as a financial assurance, reinforcing the buyer's dedication, and is forfeited if they fail to honor the agreed terms."
+            }
+          ],
+          "correct_answer": "It is securely held in escrow, ensuring both parties' financial security throughout the transaction."
+        },
+        {
+          "id": 55,
+          "question": "What is the primary purpose of setting a completion date during the exchange of contracts?",
+          "options": [
+            {
+              "id": 109,
+              "text": "To create a definitive timeline for the final property handover, minimizing uncertainties and facilitating a seamless transition."
+            },
+            {
+              "id": 110,
+              "text": "It introduces a structured plan for the conclusive stages of the property transfer, reducing ambiguity and enhancing clarity in the transaction process."
+            }
+          ],
+          "correct_answer": "To create a definitive timeline for the final property handover, minimizing uncertainties and facilitating a seamless transition."
+        },
+        {
+          "id": 56,
+          "question": "What is the buyer's obligation after the exchange of contracts?",
+          "options": [
+            {
+              "id": 111,
+              "text": "Upon contract exchange, the buyer is obligated to fulfill the terms stipulated in the contract, ensuring a smooth transition towards completion."
+            },
+            {
+              "id": 112,
+              "text": "Their responsibility extends to ensuring compliance with the agreed-upon terms, setting the stage for the eventual completion of the purchase."
+            }
+          ],
+          "correct_answer": "Their responsibility extends to ensuring compliance with the agreed-upon terms, setting the stage for the eventual completion of the purchase."
+        }
+      ]
+    },
+    {
+      "task": "Completion",
+      "questions": [
+        {
+          "id": 57,
+          "question": "What is the primary purpose of receiving a completion statement from the solicitor?",
+          "options": [
+            {
+              "id": 113,
+              "text": "To scrutinize financial details, confirming adherence to agreed terms and guaranteeing a financially sound completion."
+            },
+            {
+              "id": 114,
+              "text": "It serves as a meticulous review of financial transactions, ensuring accuracy and validating the seller's financial integrity in the completion process."
+            }
+          ],
+          "correct_answer": "It serves as a meticulous review of financial transactions, ensuring accuracy and validating the seller's financial integrity in the completion process."
+        },
+        {
+          "id": 58,
+          "question": "Why is it crucial for the buyer to pay any outstanding fees as per the completion statement?",
+          "options": [
+            {
+              "id": 115,
+              "text": "Prompt payment of outstanding fees signifies the buyer's commitment to a fair and equitable completion, fostering a positive relationship with the seller."
+            },
+            {
+              "id": 116,
+              "text": "The payment of outstanding fees is a pivotal step in validating the buyer's financial responsibility and dedication to the completion process."
+            }
+          ],
+          "correct_answer": "Prompt payment of outstanding fees signifies the buyer's commitment to a fair and equitable completion, fostering a positive relationship with the seller."
+        },
+        {
+          "id": 59,
+          "question": "What is the primary purpose of completing final checks before completion?",
+          "options": [
+            {
+              "id": 117,
+              "text": "Final checks ensure that all contractual obligations are met, providing a comprehensive evaluation of the property's readiness for handover."
+            },
+            {
+              "id": 118,
+              "text": "To meticulously examine all elements of the property transaction, confirming the seller's compliance with agreed-upon terms."
+            }
+          ],
+          "correct_answer": "Final checks ensure that all contractual obligations are met, providing a comprehensive evaluation of the property's readiness for handover."
+        },
+        {
+          "id": 60,
+          "question": "Why is getting the keys a significant step in the completion process?",
+          "options": [
+            {
+              "id": 119,
+              "text": "The act of receiving the keys represents the conclusive handover of the property, confirming the buyer's right to possession."
+            },
+            {
+              "id": 120,
+              "text": "Receiving the keys symbolizes the official transfer of ownership, marking the successful culmination of the property transaction."
+            }
+          ],
+          "correct_answer": "Receiving the keys symbolizes the official transfer of ownership, marking the successful culmination of the property transaction."
+        }
+      ]
+    }
+  ],
+  "mortgage_steps": [
+    {
+      "id": 1,
+      "title": "Early Repayment Charge:",
+      "tasks": [
+        "Penalty for repaying or overpaying mortgage during the tie-in period.",
+        "Percentage-based (e.g., 5% in year one, 4% in year two).",
+        "Consider remortgaging after the tie-in period to avoid this fee."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Deeds Release Fee:",
+      "tasks": [
+        "Paid to release property's title deeds to your solicitor.",
+        "Typically between £50 and £300, check original paperwork."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Arrangement Fee:",
+      "tasks": [
+        "Covers lender's administration costs.",
+        "Ranges from £1,000 to £2,000, consider upfront payment or adding to the mortgage."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Booking Fee (if applicable):",
+      "tasks": [
+        "Non-refundable fee to secure a fixed-rate, tracker, or discount deal.",
+        "Rare but may range from £100 to £300."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Valuation Fee:",
+      "tasks": [
+        "Often included in remortgage packages.",
+        "If not, expect to pay £300 to £500 for property valuation."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Conveyancing Fee:",
+      "tasks": [
+        "Legal work to remove original lender's interest and register the new lender.",
+        "Around £350, may be covered by the new lender."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Broker Fee (if applicable):",
+      "tasks": [
+        "Charged by brokers, ranging from £300 to 1% of the loan amount.",
+        "Some brokers are fee-free; negotiate fees based on commission."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "New Mortgage Repayments:",
+      "tasks": [
+        "Use Mortgage best buys tool to benchmark rates.",
+        "Calculate exact monthly payments using a mortgage calculator."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Considerations:",
+      "tasks": [
+        "Be cautious of low rates disguising high fees.",
+        "Check for any additional costs or fees not listed here.",
+        "Pay attention to the overall cost (fees + interest) of the mortgage."
+      ]
+    }
+  ],
+  "remortgage_quiz": [
+    {
+      "task": "Assess Remortgage Feasibility",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does LTV stand for in the context of remortgaging?",
+          "options": [
+            { "id": 1, "text": "Loan Term Verification" },
+            { "id": 2, "text": "Loan-to-Value ratio (LTV)" }
+          ],
+          "correct_answer": "Loan-to-Value ratio (LTV)"
+        },
+        {
+          "id": 2,
+          "question": "Why might someone consider remortgaging their property?",
+          "options": [
+            { "id": 3, "text": "To upgrade their home's energy efficiency" },
+            { "id": 4, "text": "To secure a better interest rate or terms" }
+          ],
+          "correct_answer": "To secure a better interest rate or terms"
+        },
+        {
+          "id": 3,
+          "question": "What is the main advantage of conducting a remortgage valuation?",
+          "options": [
+            {
+              "id": 5,
+              "text": "It determines the property's current market value"
+            },
+            { "id": 6, "text": "It predicts future property price trends" }
+          ],
+          "correct_answer": "It determines the property's current market value"
+        },
+        {
+          "id": 4,
+          "question": "How does the remortgaging process differ from the initial mortgage application?",
+          "options": [
+            { "id": 7, "text": "It involves a higher down payment" },
+            {
+              "id": 8,
+              "text": "It often requires less documentation and paperwork"
+            }
+          ],
+          "correct_answer": "It often requires less documentation and paperwork"
+        }
+      ]
+    },
+    {
+      "task": "Evaluate Remortgage Options",
+      "questions": [
+        {
+          "id": 5,
+          "question": "What is an early repayment charge in the context of remortgaging?",
+          "options": [
+            {
+              "id": 9,
+              "text": "A fee for paying off the mortgage ahead of schedule"
+            },
+            {
+              "id": 10,
+              "text": "A discount on the interest rate for early repayment"
+            }
+          ],
+          "correct_answer": "A fee for paying off the mortgage ahead of schedule"
+        },
+        {
+          "id": 6,
+          "question": "What is equity release, and how does it relate to remortgaging?",
+          "options": [
+            {
+              "id": 11,
+              "text": "It's a type of mortgage for first-time buyers"
+            },
+            {
+              "id": 12,
+              "text": "It involves accessing the value of your home to release cash"
+            }
+          ],
+          "correct_answer": "It involves accessing the value of your home to release cash"
+        },
+        {
+          "id": 7,
+          "question": "How can a homeowner use remortgaging to fund home improvements?",
+          "options": [
+            { "id": 13, "text": "By applying for a separate personal loan" },
+            {
+              "id": 14,
+              "text": "By increasing their mortgage to cover renovation costs"
+            }
+          ],
+          "correct_answer": "By increasing their mortgage to cover renovation costs"
+        },
+        {
+          "id": 8,
+          "question": "What is a remortgage broker, and how can they assist in the process?",
+          "options": [
+            {
+              "id": 15,
+              "text": "A professional who appraises the property's value"
+            },
+            {
+              "id": 16,
+              "text": "An intermediary who helps find and secure remortgage deals"
+            }
+          ],
+          "correct_answer": "An intermediary who helps find and secure remortgage deals"
+        }
+      ]
+    },
+    {
+      "task": "Assess Financial Implications",
+      "questions": [
+        {
+          "id": 9,
+          "question": "What factors should be considered when deciding whether to remortgage?",
+          "options": [
+            {
+              "id": 17,
+              "text": "Only the current interest rates in the market"
+            },
+            {
+              "id": 18,
+              "text": "Both the current interest rates and potential associated costs"
+            }
+          ],
+          "correct_answer": "Both the current interest rates and potential associated costs"
+        },
+        {
+          "id": 10,
+          "question": "Can one remortgage to consolidate debts, and how does it work?",
+          "options": [
+            {
+              "id": 19,
+              "text": "No, remortgaging is solely for property-related expenses"
+            },
+            {
+              "id": 20,
+              "text": "Yes, by incorporating outstanding debts into the new mortgage"
+            }
+          ],
+          "correct_answer": "Yes, by incorporating outstanding debts into the new mortgage"
+        },
+        {
+          "id": 11,
+          "question": "What is a fixed-rate remortgage, and how does it differ from a variable rate?",
+          "options": [
+            {
+              "id": 21,
+              "text": "It has a constant interest rate throughout the term"
+            },
+            { "id": 22, "text": "It fluctuates based on market interest rates" }
+          ],
+          "correct_answer": "It has a constant interest rate throughout the term"
+        },
+        {
+          "id": 12,
+          "question": "How does the remortgaging process impact the existing mortgage lender?",
+          "options": [
+            {
+              "id": 23,
+              "text": "The lender is not affected by the remortgage process"
+            },
+            {
+              "id": 24,
+              "text": "The borrower repays the existing mortgage, and a new lender takes over"
+            }
+          ],
+          "correct_answer": "The borrower repays the existing mortgage, and a new lender takes over"
+        }
+      ]
+    },
+    {
+      "task": "Plan for Future Home Expenses",
+      "questions": [
+        {
+          "id": 13,
+          "question": "What is a product fee in the context of remortgaging, and is it avoidable?",
+          "options": [
+            {
+              "id": 25,
+              "text": "A fee for purchasing mortgage-related products"
+            },
+            {
+              "id": 26,
+              "text": "A fee associated with specific mortgage deals, and it may be avoidable"
+            }
+          ],
+          "correct_answer": "A fee associated with specific mortgage deals, and it may be avoidable"
+        },
+        {
+          "id": 14,
+          "question": "Can one remortgage a property that has decreased in value since the original mortgage?",
+          "options": [
+            {
+              "id": 27,
+              "text": "No, remortgaging is only applicable to appreciating properties"
+            },
+            {
+              "id": 28,
+              "text": "Yes, but it may impact the loan-to-value ratio and available deals"
+            }
+          ],
+          "correct_answer": "Yes, but it may impact the loan-to-value ratio and available deals"
+        },
+        {
+          "id": 15,
+          "question": "How does credit score play a role in the remortgaging approval process?",
+          "options": [
+            { "id": 29, "text": "It has no impact on remortgaging approval" },
+            {
+              "id": 30,
+              "text": "A good credit score may result in better remortgage deals and terms"
+            }
+          ],
+          "correct_answer": "A good credit score may result in better remortgage deals and terms"
+        },
+        {
+          "id": 16,
+          "question": "What is a cash-out remortgage, and for what purposes can the released funds be used?",
+          "options": [
+            {
+              "id": 31,
+              "text": "It involves withdrawing cash from the property's equity, and funds can be used for any purpose"
+            },
+            {
+              "id": 32,
+              "text": "It's a cash reward for completing the remortgage process"
+            }
+          ],
+          "correct_answer": "It involves withdrawing cash from the property's equity, and funds can be used for any purpose"
+        }
+      ]
+    },
+    {
+      "task": "Optimize Long-Term Financial Strategy",
+      "questions": [
+        {
+          "id": 17,
+          "question": "How does the length of the remortgage term affect monthly repayments?",
+          "options": [
+            {
+              "id": 33,
+              "text": "Shorter terms result in lower monthly repayments"
+            },
+            {
+              "id": 34,
+              "text": "Longer terms may lead to lower monthly repayments but higher overall interest payments"
+            }
+          ],
+          "correct_answer": "Longer terms may lead to lower monthly repayments but higher overall interest payments"
+        },
+        {
+          "id": 18,
+          "question": "What is the significance of the remortgage interest rate, and how can it impact overall costs?",
+          "options": [
+            {
+              "id": 35,
+              "text": "Interest rates have no impact on overall costs"
+            },
+            {
+              "id": 36,
+              "text": "Lower interest rates can result in reduced overall repayment costs"
+            }
+          ],
+          "correct_answer": "Lower interest rates can result in reduced overall repayment costs"
+        },
+        {
+          "id": 19,
+          "question": "Can one remortgage multiple times, and are there any potential drawbacks?",
+          "options": [
+            {
+              "id": 37,
+              "text": "No, remortgaging multiple times is not allowed"
+            },
+            {
+              "id": 38,
+              "text": "Yes, but it may involve additional fees and impact credit scores"
+            }
+          ],
+          "correct_answer": "Yes, but it may involve additional fees and impact credit scores"
+        },
+        {
+          "id": 20,
+          "question": "How can one determine if remortgaging is a financially sound decision for their specific situation?",
+          "options": [
+            { "id": 39, "text": "By solely considering current market trends" },
+            {
+              "id": 40,
+              "text": "By assessing individual circumstances, including existing rates, fees, and financial goals"
+            }
+          ],
+          "correct_answer": "By assessing individual circumstances, including existing rates, fees, and financial goals"
+        }
+      ]
+    },
+    {
+      "task": "Navigate Remortgage Procedures",
+      "questions": [
+        {
+          "id": 21,
+          "question": "What is a remortgage in-principle offer, and how does it differ from a mortgage in-principle offer?",
+          "options": [
+            {
+              "id": 41,
+              "text": "It guarantees loan approval for any property"
+            },
+            {
+              "id": 42,
+              "text": "It's a conditional offer based on the current property and existing mortgage"
+            }
+          ],
+          "correct_answer": "It's a conditional offer based on the current property and existing mortgage"
+        },
+        {
+          "id": 22,
+          "question": "In what scenarios might someone consider a remortgage over a home equity loan?",
+          "options": [
+            { "id": 43, "text": "For short-term financial needs" },
+            {
+              "id": 44,
+              "text": "When seeking a fixed lump sum for a specific purpose"
+            }
+          ],
+          "correct_answer": "When seeking a fixed lump sum for a specific purpose"
+        },
+        {
+          "id": 23,
+          "question": "What is the role of the loan-to-value (LTV) ratio in remortgaging, and how does it impact available deals?",
+          "options": [
+            { "id": 45, "text": "LTV has no impact on remortgaging deals" },
+            {
+              "id": 46,
+              "text": "A lower LTV ratio may lead to better deals and lower interest rates"
+            }
+          ],
+          "correct_answer": "A lower LTV ratio may lead to better deals and lower interest rates"
+        },
+        {
+          "id": 24,
+          "question": "Can one switch from a variable rate mortgage to a fixed-rate mortgage during the remortgaging process?",
+          "options": [
+            { "id": 47, "text": "No, the mortgage type must remain unchanged" },
+            {
+              "id": 48,
+              "text": "Yes, it's possible to switch to a different mortgage type"
+            }
+          ],
+          "correct_answer": "Yes, it's possible to switch to a different mortgage type"
+        }
+      ]
+    },
+    {
+      "task": "Enhance Financial Flexibility",
+      "questions": [
+        {
+          "id": 25,
+          "question": "How does the remortgaging process impact the homeowner's credit score?",
+          "options": [
+            { "id": 49, "text": "It has no effect on the credit score" },
+            {
+              "id": 50,
+              "text": "The credit score may be temporarily affected due to credit checks"
+            }
+          ],
+          "correct_answer": "The credit score may be temporarily affected due to credit checks"
+        },
+        {
+          "id": 26,
+          "question": "Is there a way to minimize the impact on the credit score during the remortgaging process?",
+          "options": [
+            {
+              "id": 51,
+              "text": "No, the impact on the credit score is unavoidable"
+            },
+            {
+              "id": 52,
+              "text": "Yes, by spacing out credit checks and financial activities"
+            }
+          ],
+          "correct_answer": "Yes, by spacing out credit checks and financial activities"
+        },
+        {
+          "id": 27,
+          "question": "What role does the homeowner's payment history play in the remortgaging approval process?",
+          "options": [
+            {
+              "id": 53,
+              "text": "Payment history has no impact on remortgaging approval"
+            },
+            {
+              "id": 54,
+              "text": "A positive payment history can enhance remortgaging approval chances"
+            }
+          ],
+          "correct_answer": "A positive payment history can enhance remortgaging approval chances"
+        },
+        {
+          "id": 33,
+          "question": "Can remortgaging be a viable option for homeowners with fluctuating income?",
+          "options": [
+            {
+              "id": 55,
+              "text": "No, remortgaging is suitable only for stable income scenarios"
+            },
+            {
+              "id": 56,
+              "text": "Yes, it can provide flexibility by adjusting terms based on income changes"
+            }
+          ],
+          "correct_answer": "Yes, it can provide flexibility by adjusting terms based on income changes"
+        }
+      ]
+    }
+  ]
+}
